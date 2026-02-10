@@ -1,0 +1,45 @@
+o que eu preciso para executar essa birosca
+
+precisa ver se isso está ok
+cobc -V
+
+se tiver cria um executavel 
+cobc -x [nome do arquivo].cbl
+
+depois só usar o .exe
+HelloWorld
+
+se não funcionar, executa isso e ele inicializa o ambiente na sua pasta
+cd C:\msys64\mingw64\bin\cobenv.cmd
+
+video de apoio + docs
+https://www.youtube.com/watch?v=d1H4aem2aJs&list=PLp6MkrJHIfn_X08FWGYvuN4rEvpAM-CYM
+https://code.visualstudio.com/docs/cpp/config-mingw
+https://www.youtube.com/watch?v=OLYsRoKkKX4&t=51s
+
+
+Variaveis COBOL
+A = CARACTERES
+9 = NUMERICOS
+9V99 = NUMERICOS ONDE V É A CASA DECIMAL PARA ENTRADA DE DADOS
+9.99 = . É PARA CASA DECIMAL DE SAÍDA DE DADOS
+88 = CODIGO ESPECIAL ELE QUER DIZER QUE O REGISTRO ESTÁ EM UM ARQUIVO
+
+COMPUTE IMC_TOTAL = PESO / ALTURA ** 2 = COMPUTE FACILITA OS CALCULOS, E ** SIGNIFICA POTÊNCIA
+
+LEITURA DO COBOL EM ARQUIVOS
+
+5 CARACTERES = ID
+20 CARACTERES = PRIMEIRO NOME
+20 CARACTERES = SOBRENOME
+1 CARACTER = SEXO
+     
+0000011111111111111111111222222222222222222223
+12345ALEXANDRE          STALIN SILVA ALVES   M
+12346PEDRO              HENRIQUE DE PAULA    M
+12347MIGUEL             GONÇALVES PESTANA    M
+12348THEUSMA                                 M
+12349ARCOST                                  M
+12350CAIQUE                                  M
+12351PAOLA                                   F
+12352DEBORA                                  F
