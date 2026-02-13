@@ -1,5 +1,5 @@
        IDENTIFICATION DIVISION.
-           PROGRAM-ID. ALUNOS.
+           PROGRAM-ID. ALUNOSRELATIVOS.
            AUTHOR. Alexandre S S Alves.
 
        ENVIRONMENT DIVISION.
