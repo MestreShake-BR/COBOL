@@ -1,6 +1,6 @@
        IDENTIFICATION DIVISION.
            PROGRAM-ID. ImportarAlunos.
-           AUTHOR. Fernando Anselmo.
+           AUTHOR. Alexandre S S Alves.
 
        ENVIRONMENT DIVISION.
        INPUT-OUTPUT SECTION.
